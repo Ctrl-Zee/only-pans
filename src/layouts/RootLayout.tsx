@@ -10,7 +10,7 @@ export const RootLayout = () => {
           <Suspense>
             <Navigation />
             <Outlet />
-            <div>suggestions</div>
+            {/* <div>suggestions</div> */}
           </Suspense>
         </main>
       </div>

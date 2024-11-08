@@ -1,7 +1,9 @@
+import { Post } from '../features/Home/components/Post';
+
 const HomePage = () => {
   return (
     <div className="flex justify-center">
-      <div>feed</div>
+      <Post />
     </div>
   );
 };

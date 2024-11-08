@@ -12,7 +12,7 @@ export const NavItem = ({ label, icon, iconImage, ...props }: NavItemProps) => {
     <NavLink
       className={({ isActive }) =>
         clsx(
-          'flex h-[35px] items-center font-bold  hover:text-[#00aff0] hover:bg-[#151e25] rounded-2xl w-52 pl-4',
+          'flex h-[35px] w-52 items-center rounded-2xl pl-4 font-bold hover:bg-[#151e25] hover:text-[#00aff0]',
           isActive ? 'text-white!' : 'text-[#8A96A3]'
         )
       }
